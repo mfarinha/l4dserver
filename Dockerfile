@@ -21,7 +21,7 @@ RUN set -x \
 		&& wget -qO- 'https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz' | tar zxf -" \
         && apt-get clean autoclean \
         && apt-get autoremove -y \
-        && rm -rf /var/lib/{apt,dpkg,cache,log} /
+        && rm -rf /var/lib/{apt,dpkg,cache,log}
 
 
 # Switch to user steam
