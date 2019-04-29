@@ -33,7 +33,7 @@ RUN set -x \
         +login anonymous \
         +force_install_dir /home/steam/l4d \
         +app_update 222840 validate \
-        +quit \
+        +quit 
 
 
 
